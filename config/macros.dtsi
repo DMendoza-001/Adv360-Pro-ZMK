@@ -1,3 +1,9 @@
+macro_walign: macro_walign{
+compatible = "zmk,behavior-macro";
+label = "macro_walign";
+#binding-cells = <0>;
+bindings = <&sk LGUI>, <&kp Z>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
